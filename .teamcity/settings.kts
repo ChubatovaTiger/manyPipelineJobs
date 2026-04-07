@@ -31,7 +31,7 @@ object Pipeline1 : Pipeline({
         vcs {
         }
     }
-    val numJobs=10
+    val numJobs=150
     for (i in 1..numJobs) {
     job({
                     id("job" + "_$i")
