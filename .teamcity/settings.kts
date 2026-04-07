@@ -33,7 +33,7 @@ object Pipeline1 : Pipeline({
     }
     val numJobs=10
     for (i in 1..numJobs) {
-    Job({
+    job({
                     id("job" + "_$i")
                     name = "job $i"
     })
